@@ -3,5 +3,5 @@
 
 
 
-📝 License
+## 📝 License
 The Lean 4 source code is licensed under MIT License. 
