@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "Please cite this research as follows."
+authors:
+  - name: "Jonathan ƒ(n)"
+title: "Geometric Exclusion of Smooth Solutions to Navier-Stokes Equations at Stationary Right-Angles under No-Slip Boundary Conditions in Lean 4"
+version: 1.0.0
+doi: 10.5281/zenodo.21926631
+date-released: 2026-08-14
