@@ -3,7 +3,7 @@ version: "v0.4"
 project:
   name: "Geometric Exclusion of Smooth Solutions to Navier-Stokes Equations at Stationary Right-Angles"
   description: >-
-    A machine-verified formalization in Lean 4 demonstrating a structural counterexample to the global smoothness of the 3D incompressible Navier-Stokes equations via stationary right-angle corner boundary constraints.
+    A proof by contradiction demonstrating that smooth solutions to the three-dimensional incompressible Navier-Stokes equations do not exist for all time under stationary right-angle corner boundary constraints.
   authors:
     - "Jonathan f(n) Reed"
   license: "MIT"
@@ -21,9 +21,16 @@ sources:
     relationship: "other"
 workflow:
   ai_assisted: true
-  description: "Conceptual logic and proof structure created by the author; synthesized and formalized via human-AI collaborative workflows in Lean 4."
+  description: "Machine-verified formalization in Lean 4 of a structural counterexample to the global smoothness of the 3D incompressible Navier-Stokes equations."
 automation:
   methods:
-    - "Automated Lean 4 kernel verification"
+    - method: "copilot"
+      models:
+        - "Gemini"
+      framework: "Lean 4"
+      tool_setup: "The author acknowledges the assistance of a large language model, Gemini, for its role as a formalization and editing tool in the preparation of this manuscript. The AI was used under the direct control of the author. All intellectual and creative decisions, as well as final editorial responsibility, rest with the author."
+      cost:
+        wall_time: "Not specified"
+        spend_usd: "0"
 review:
   status: "submitted"
