@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "packagesDir": ".lake/packages",
+  "packages": [
+    {
+      "url": "https://github.com/leanprover-community/mathlib4.git",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "master",
+      "name": "mathlib",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "master",
+      "inherited": false,
+      "configFile": "lakefile.lean"
+    }
+  ],
+  "name": "NavierStokes"
+}
