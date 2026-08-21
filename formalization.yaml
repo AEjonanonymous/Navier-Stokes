@@ -1,0 +1,12 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/mathlib-initiative/formalization.yaml/main/schema/formalization.schema.json
+version: "1"
+project:
+  name: "Geometric Exclusion of Smooth Solutions to Navier-Stokes Equations at Stationary Right-Angles"
+  description: "A machine-verified formalization in Lean 4 demonstrating a structural counterexample to the global smoothness of the 3D incompressible Navier-Stokes equations via stationary right-angle corner boundary constraints."
+authors:
+  - name: "Jonathan f(n) Reed"
+sources:
+  - original_proof: true
+workflow:
+  ai_assisted: true
+  description: "Conceptual logic and proof structure created by the author; synthesized and formalized via human-AI collaborative workflows in Lean 4."
