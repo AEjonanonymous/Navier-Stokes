@@ -1,6 +1,5 @@
 import Mathlib
 
--- 1. Mathematical Framework and Concrete Domain Definition
 abbrev Point3D := ℝ × ℝ × ℝ
 
 def IsRightAngleCornerDomain (Ω : Set Point3D) : Prop :=
@@ -134,6 +133,7 @@ theorem smooth_scaling_lower_bound (u : VectorField3D) (lambda : ℝ)
   have h_inst := h_smooth 1 (by norm_num)
   exact h_ineq
 
+-- The target statement ending in sorry
 theorem navier_stokes_geometric_exclusion (Ω : Set Point3D) (corner : Point3D) (u : VectorField3D) (p_field : ScalarField3D) (nu : ℝ) (lambda : ℝ)
   (h_pde : FullNavierStokesPDE u p_field nu)
   (h_balance : inertial_scaling lambda = viscous_scaling lambda)
