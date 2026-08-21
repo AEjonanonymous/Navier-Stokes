@@ -1,0 +1,6 @@
+{
+    "challenge_module": "Challenge",
+    "solution_module": "NavierStokes",
+    "theorem_names": ["navier_stokes_geometric_exclusion"],
+    "permitted_axioms": ["propext", "Quot.sound", "Classical.choice"]
+}
