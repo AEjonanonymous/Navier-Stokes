@@ -13,6 +13,18 @@
       "inputRev": "v4.33.0",
       "inherited": false,
       "configFile": "lakefile.lean"
+    },
+    {
+      "url": "https://github.com/leanprover-community/plausible.git",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "38e9c3ce15cbb63c92e90bb9a92e4eb82131f669",
+      "name": "plausible",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "main",
+      "inherited": true,
+      "configFile": "lakefile.toml"
     }
   ],
   "name": "NavierStokes"
