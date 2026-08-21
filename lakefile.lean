@@ -4,7 +4,7 @@ open Lake DSL
 package «NavierStokes» where
 
 require mathlib from git
-  "https://github.com/leanprover-community/mathlib4.git" @ "v4.13.0"
+  "https://github.com/leanprover-community/mathlib4.git" @ "v4.33.0"
 
 lean_lib «Challenge» where
   srcDir := "."
