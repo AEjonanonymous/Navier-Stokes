@@ -3,7 +3,7 @@ version: "v0.4"
 project:
   name: "Geometric Exclusion of Smooth Solutions to Navier-Stokes Equations at Stationary Right-Angles"
   description: >-
-    A proof by contradiction demonstrating that smooth solutions to the three-dimensional incompressible Navier-Stokes equations do not exist for all time under stationary right-angle corner boundary constraints.
+    A proof by contradiction demonstrating that smooth solutions to the three-dimensional incompressible Navier-Stokes equations do not exist for all time at stationary right-angles under no-slip boundary conditions.
   authors:
     - "Jonathan f(n) Reed"
   license: "MIT"
